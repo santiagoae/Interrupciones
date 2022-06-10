@@ -1,0 +1,45 @@
+.contenedor{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url("https://www.seguritecnia.es/wp-content/uploads/2021/03/riesgos-de-interrupcion-del-negocio-de-las-empresas-900x600.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.contenedorFormulario{
+  width: 40%;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 60vh;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+.formulario{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px ;  
+}
+.formulario input{
+  width: 100%;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+  margin-bottom: 20px ;
+  border: none;  
+} 
+.formulario p{
+  margin-top: 10px;
+ font-size: 14px;
+ color: yellow;
+} 
